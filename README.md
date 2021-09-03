@@ -8,7 +8,7 @@ If you inspect the file that Webpack generates in your browser's devtools (I rec
 
 The error only happens when running in development mode with Webpack 5. If you run `npm run build` and `npm run start` , or if you disable Webpack 5 in `next.config.js` and run `npm run dev` then the error does not occur and the dynamic import works.
 
-# How to reprpduce locally
+# How to reproduce locally
 
 1. Clone this repository
 2. Run `npm run dev`
